@@ -1,2 +1,1 @@
-# web_jsinsert
-## native 与 oc 交互，使用inject js，jscore两种方式
+JS Native 交互demo,包含javascriptCore和拦截request两种方式
