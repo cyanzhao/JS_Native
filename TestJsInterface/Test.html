@@ -1,0 +1,21 @@
+<html>
+    <head>
+    	<script type="text/javascript">
+        	
+            function callJs(input){
+        
+        		callNative('-native invoked js-' + input);
+        
+            }
+        
+        	function callNative(input){
+        		
+                var resultsFromNative = nativeCommon.callNative(input);
+        	  	alert('-js invoked native-' + resultsFromNative);
+        	}
+        </script>
+    </head>
+    <body>
+        <button onclick="callNative('-js internal call method-');">Click me</button>
+    </body>
+</html>
